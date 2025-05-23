@@ -26,7 +26,7 @@ onMounted(() => {
   <main>
     <div>Silahkan Pilih Coffe Terbaik Anda</div>
 
-    <div>>
+    <div>
       <ul>
         <li v-for="caffe in caffes" :key="caffe.id">
           <div>{{ caffe.name }}</div>

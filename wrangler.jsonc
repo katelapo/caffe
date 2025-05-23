@@ -2,7 +2,15 @@
     "name": "caffe",
     "compatibility_date": "2023-10-01",
     "assets": {
-        "not_found-handling": "single-page-application"
+        "not_found-handling": "single-page-application",
+        "binding": "ASSETS"
     },
-    "main": "./api/index.ts"
+    "main": "./api/index.ts",
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_name": "caffe",
+            "database_id": "bd083709-cd63-405f-809c-89c20af95881"
+        }
+    ]
 }
