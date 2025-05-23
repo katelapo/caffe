@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
+import { RouterLink } from 'vue-router'
 
 interface Caffe {
   id: number
@@ -25,6 +26,9 @@ onMounted(() => {
 <template>
   <main>
     <div>Silahkan Pilih Coffe Terbaik Anda</div>
+    <div>
+      <RouterLink to="/create-caffe">Buat Caffe Baru</RouterLink>
+    </div>
 
     <div>
       <ul>

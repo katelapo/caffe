@@ -10,6 +10,16 @@ const router = createRouter({
       component: HomeView,
     },
     {
+      path: '/caffe',
+      name: 'create-caffe',
+      component: () => import('../views/CreateCaffeView.vue'),
+    },
+    {
+      path: '/caffe/:id',
+      name: 'edit-caffe',
+      component: () => import('../views/EditCaffeView.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
