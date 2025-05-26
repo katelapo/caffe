@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>Tentang Saya</h1>
+    <h1>Tentang Aplikasi ini</h1>
   </div>
 </template>
